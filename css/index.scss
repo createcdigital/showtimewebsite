@@ -1,0 +1,1025 @@
+
+@font-face {
+  font-family:'AlienLeagueRegular';
+  src: url('../font/fontOne/AlienLeague_-_Alien_League_-_Regular_0.ttf');
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont/iconfont.eot');
+  src: url('../font/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont/iconfont.woff') format('woff'),
+  url('../font/iconfont/iconfont.ttf') format('truetype'),
+  url('../font/iconfont/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont2';
+  src: url('../font/iconfont2/iconfont.eot');
+  src: url('../font/iconfont2/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont2/iconfont.woff') format('woff'),
+  url('../font/iconfont2/iconfont.ttf') format('truetype'),
+  url('../font/iconfont2/iconfont.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont3';
+  src: url('../font/iconfont3/iconfont.eot');
+  src: url('../font/iconfont3/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont3/iconfont.woff') format('woff'),
+  url('../font/iconfont3/iconfont.ttf') format('truetype'),
+  url('../font/iconfont3/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont2 {
+  font-family:"iconfont2" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont3 {
+  font-family:"iconfont3" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+@media screen and (max-width: 1754px){
+  .banner {
+    height: 755px !important;
+  }
+}
+
+@media screen and (max-width: 1642px){
+  .banner {
+    height: 745px !important;
+  }
+  .tag-box .swiper-container {
+    height: 95px !important;
+  }
+}
+
+@media screen and (max-width: 1542px){
+  .banner {
+    height: 725px !important;
+  }
+  .tag-box .swiper-container {
+    height: 90px !important;
+  }
+}
+
+@media screen and (max-width: 1442px){
+  .banner {
+    height: 695px !important;
+  }
+  .tag-box .swiper-container {
+    height: 85px !important;
+  }
+  .tag-box .swiper-container .swiper-slide {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1342px){
+  .banner {
+    height: 665px !important;
+  }
+  .tag-box .swiper-container {
+    height: 80px !important;
+  }
+  .tag-box .swiper-container .swiper-slide {
+    font-size: 20px !important;
+  }
+}
+
+
+.banner {
+  width: 100%;
+  height: 765px;
+  padding: 0;
+  position: relative;
+  .banner-img {
+    width: 100%;
+    height: 100%;
+  }
+  .text－box {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    #text {
+      color: #fff;
+      font-family: 'AlienLeagueRegular';
+      font-size: 90px;
+      word-spacing: 20px;
+    }
+  }
+  .banner-menu {
+    width: 217px;
+    background: #434545;
+    position: fixed;
+    top: 9.4%;
+    right: 3.5%;
+    z-index: 10;
+    display: none;
+    .banner-ul {
+      width: 100%;
+      height: 100%;
+      li {
+        display: block;
+        width: 217px;
+        height: 42px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 42px;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+        .banner-icon {
+          color: #fff;
+          font-size: 32px;
+          float: left;
+          margin-left: 10px;
+          margin-right: 50px;
+        }
+
+      }
+      li:hover {
+        color: #9a9998;
+        .banner-icon {
+          color: #9a9998;
+        }
+      }
+    }
+  }
+}
+
+
+.line-box {
+  height: 100px;
+  line-height: 100px;
+  .hr1 {
+    width: 41%;
+    height: 5px;
+    float: left;
+    margin-top: 47px;
+    color: #eeeeed;
+  }
+  .hr2 {
+    width: 41%;
+    height: 5px;
+    float: right;
+    margin-top: 47px;
+    color: #333;
+  }
+  .line-text {
+    color: #393a3a;
+    font-size: 28px;
+    font-family: arial;
+    margin-left: 4%;
+    text-decoration: none;
+  }
+}
+
+
+.tag-box {
+  width:100%;
+  height:100px;
+  position:relative;
+  .swiper-container {
+    width:100%;
+    height:100px;
+    .swiper-slide {
+      text-align: center;
+      font-size:24px;
+      color:#fff;
+      cursor:pointer;
+      border-radius:16px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .slide1 {
+      background:#f1b347;
+    }
+    .slide2 {
+      background:#db4c47;
+    }
+    .slide3 {
+      background:#c73967;
+    }
+    .slide4 {
+      background:#e24f97;
+    }
+    .slide5 {
+      background:#624270;
+    }
+    .slide6 {
+      background:#198f66;
+    }
+    .slide7 {
+      background:#f1b347;
+    }
+  }
+}
+
+.total-box {
+  width: 100%;
+  .total-layout {
+    padding-bottom: 80px;
+  }
+  #main-box {
+    width: 100%;
+    margin-top: 64px;
+    padding-bottom: 80px;
+    position: relative;
+    ul {
+      float: left;
+
+      li {
+        width: 270px;
+        margin: 5px 10px;
+        box-shadow: 0 0 1px;
+        border-radius: 5px;
+      }
+    }
+
+
+
+    .pic-box {
+      width: 270px;
+      float: left;
+      margin: 5px 10px;
+      box-shadow: 0 0 1px;
+      border-radius: 5px;
+      position: relative;
+      .pic {
+        width:270px;
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        cursor:pointer;
+      }
+      .pic-text {
+        width:246px;
+        height:36px;
+        line-height: 18px;
+        margin:8px 12px;
+        font-size:16px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient:vertical;
+      }
+      .userInfo {
+        width:246px;
+        height:69px;
+        padding:0 12px 8px;
+        position:relative;
+        .headIcon {
+          display:block;
+          width:50px;
+          height:50px;
+          float:left;
+          margin-top:4px;
+          .headIconImg {
+            width:50px;
+            height:50px;
+          }
+        }
+        .userName {
+          position:absolute;
+          top:10%;
+          left:30%;
+          font-size:18px;
+          font-weight: bold;
+          color:#000;
+        }
+        .userJob {
+          display:block;
+          width:182px;
+          height:30px;
+          position:absolute;
+          top:42%;
+          left:30%;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap;
+        }
+      }
+      .Add {
+        display:block;
+        width:54px;
+        height:26px;
+        background:#fff;
+        text-align:center;
+        line-height:26px;
+        position:absolute;
+        top:5px;
+        left:5px;
+        border-radius:5px;
+        color:#333;
+        z-index:3;
+        text-decoration: none;
+        display:none;
+      }
+      .Add:hover {
+        background:#E53E56;
+        color:#fff;
+      }
+      .like {
+        display:block;
+        width:26px;
+        height:26px;
+        background:#fff;
+        text-align:center;
+        line-height:26px;
+        position:absolute;
+        top:5px;
+        right:5px;
+        border-radius:5px;
+        z-index:3;
+        text-decoration: none;
+        display:none;
+        .likeHeart {
+          font-size:22px;
+          font-family:"iconfont" !important;
+          font-style:normal;
+          color:#333;
+        }
+      }
+    }
+    .pic-box:hover {
+      box-shadow:0 0 10px;
+    }
+  }
+
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  display: none;
+}
+
+.message-box {
+  width: 677px;
+  height: 500px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -333px;
+  background: #fff;
+  z-index: 20;
+  display: none;
+  .login-img {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .img-cover {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 16;
+    }
+  }
+
+  .menu-bar {
+    width: 55%;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    .menu-title {
+      width: 80%;
+      color: #9a9998;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 20px;
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      cursor: pointer;
+      .title-one {
+        color: #9a9998;
+      }
+      .title-two {
+        color: #d4d3d2;
+      }
+    }
+    .menu-colorone {
+      width: 40%;
+      height: 5px;
+      background: url(../img/index/menucolor.jpg) no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      top: 85%;
+      left: 10%;
+    }
+    .menu-colortwo {
+      width: 40%;
+      height: 5px;
+      background: #eeeeed;
+      position: absolute;
+      top: 85%;
+      left: 50%;
+    }
+  }
+
+  .login-box {
+    width: 55%;
+    height: 432px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    .login-email {
+      border: 1px solid #38393a;
+      outline: none;
+      width: 80%;
+      height: 33px;
+      text-indent: 10px;
+      position: absolute;
+      top: 5%;
+      left: 10%;
+    }
+    .login-password {
+      border: 1px solid #38393a;
+      outline: none;
+      width: 80%;
+      height: 33px;
+      text-indent: 10px;
+      position: absolute;
+      top: 15%;
+      left: 10%;
+    }
+    .login-check {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 27%;
+      left: 10%;
+    }
+    .login-remember {
+      color: #aaa7a6;
+      position: absolute;
+      top: 27%;
+      left: 18%;
+    }
+    .login-btn {
+      width: 80%;
+      height: 33px;
+      background: #38393a;
+      position: absolute;
+      top: 37%;
+      left: 10%;
+      border: 0;
+      color: #fff;
+      outline: none;
+    }
+    .login-textbox1,.login-textbox2,.login-textbox3 {
+      width: 30%;
+      height: 22%;
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      text-align: center;
+      p {
+        font-size: 16px;
+        text-align: center;
+        color: #aaa7a6;
+      }
+    }
+    .login-textbox2 {
+      position: absolute;
+      top: 50%;
+      left: 35%;
+    }
+    .login-textbox3 {
+      position: absolute;
+      top: 50%;
+      left: 65%;
+    }
+    .login-logo1,.login-logo2,.login-logo3 {
+      width: 28%;
+      height: 24%;
+      position: absolute;
+      top: 72%;
+      left: 5%;
+      background: blue;
+      border-radius: 50%;
+      background: url(../img/index/loginlogo1.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .login-logo2 {
+      position: absolute;
+      top: 72%;
+      left: 36%;
+      background: url(../img/index/loginlogo2.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .login-logo3 {
+      position: absolute;
+      top: 72%;
+      left: 67%;
+      background: url(../img/index/loginlogo3.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  .sign-box {
+    width: 55%;
+    height: 432px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    .sign-email,.sign-pass,.sign-repass {
+      border: 1px solid #38393a;
+      outline: none;
+      width: 80%;
+      height: 33px;
+      text-indent: 10px;
+      position: absolute;
+      top: 5%;
+      left: 10%;
+    }
+    .sign-pass {
+      position: absolute;
+      top: 15%;
+      left: 10%;
+    }
+    .sign-repass {
+      position: absolute;
+      top: 25%;
+      left: 10%;
+    }
+    .sign-btn {
+      width: 80%;
+      height: 33px;
+      background: #38393a;
+      position: absolute;
+      top: 37%;
+      left: 10%;
+      border: 0;
+      color: #fff;
+      outline: none;
+    }
+    .sign-text {
+      width: 82%;
+      height: 50px;
+      position: absolute;
+      top: 47%;
+      left: 9%;
+      text-align: center;
+      p {
+        color: #aaa7a6;
+        font-size: 13px;
+        line-height: 22px;
+      }
+    }
+    .sign-logo1 {
+      width: 28%;
+      height: 24%;
+      position: absolute;
+      top: 62%;
+      left: 5%;
+      border-radius: 50%;
+      background: url(../img/index/signlogo1.png) no-repeat;
+      background-size: 100% 100%;
+      .sign-icon1 {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #f4c848;
+        border-radius: 15px;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+    .sign-logo2 {
+      width: 28%;
+      height: 24%;
+      position: absolute;
+      top: 62%;
+      left: 36%;
+      border-radius: 50%;
+      background: url(../img/index/signlogo2.png) no-repeat;
+      background-size: 100% 100%;
+      .sign-icon2 {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #e24992;
+        border-radius: 15px;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+    .sign-logo3 {
+      width: 28%;
+      height: 24%;
+      position: absolute;
+      top: 62%;
+      left: 67%;
+      border-radius: 50%;
+      background: url(../img/index/signlogo3.png) no-repeat;
+      background-size: 100% 100%;
+      .sign-icon3 {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #198f66;
+        border-radius: 15px;
+        position: absolute;
+        top: -10px;
+        left: 0;
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+      }
+    }
+    .sign-explain1,.sign-explain2,.sign-explain3 {
+      width: 28%;
+      height: 10%;
+      position: absolute;
+      top: 88%;
+      left: 5%;
+      p {
+        text-align: center;
+        line-height: 20px;
+        color: #919090;
+      }
+    }
+    .sign-explain2 {
+      position: absolute;
+      top: 88%;
+      left: 36%;
+    }
+    .sign-explain3 {
+      position: absolute;
+      top: 88%;
+      left: 67%;
+    }
+
+  }
+}
+
+
+#cover-box {
+  width: 100%;
+  min-height: 1000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 10;
+  overflow: scroll;
+  padding: 100px 0;
+  display: none;
+  .detail-box {
+    width: 650px;
+    border-radius: 5px;
+    z-index: 10;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 500px;
+    .action-bar {
+      width: 100%;
+      height: 36px;
+      .action-add {
+        display: block;
+        width: 75px;
+        height: 36px;
+        background: #303131;
+        color: #fff;
+        text-align: center;
+        line-height: 36px;
+        font-size: 14px;
+        margin-right: 5px;
+        border-radius: 5px;
+        float: left;
+        cursor: pointer;
+      }
+      .action-code {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-right: 5px;
+        float: left;
+        color: #303131;
+        text-decoration: none;
+        .actionCode {
+          font-size: 36px;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+      .action-share {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-right: 5px;
+        float: left;
+        color: #303131;
+        text-decoration: none;
+        .actionShare {
+          font-size: 36px;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+      .action-like {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin-left: 5px;
+        float: right;
+        color: #303131;
+        text-decoration: none;
+        .actionLike {
+          font-size: 36px;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+      .action-number {
+        display: block;
+        height: 36px;
+        width: auto;
+        float: right;
+        font-size: 20px;
+        color: #303131;
+        line-height: 36px;
+      }
+    }
+    .img-container {
+      width: 610px;
+      height: 610px;
+      margin-top: 20px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .self-info {
+      width: 100%;
+      height: 58px;
+      margin-top: 20px;
+      .self-headicon {
+        width: 58px;
+        height: 58px;
+        float: left;
+        margin-right: 30px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .self-userbox {
+        width: auto;
+        height: 58px;
+        float: left;
+        .self-username {
+          display: block;
+          line-height: 30px;
+        }
+        .self-userjob {
+          display: block;
+          line-height: 20px;
+        }
+      }
+      .self-visit {
+        display: block;
+        width: 75px;
+        height: 36px;
+        background: #303131;
+        color: #fff;
+        text-align: center;
+        line-height: 36px;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-top: 11px;
+        border-radius: 5px;
+        float: right;
+        cursor: pointer;
+      }
+      .self-report {
+        display: block;
+        width: 36px;
+        height: 36px;
+        float: right;
+        color: #d2d2d3;
+        margin-top: 15px;
+        text-decoration: none;
+        cursor: pointer;
+        .selfReport {
+          font-size: 36px;
+          text-align: center;
+          line-height: 36px;
+        }
+      }
+    }
+    .letter-box {
+      width: 610px;
+      height: auto;
+      margin-top: 30px;
+      border-bottom: 1px solid #9a9898;
+      .letter-title {
+        display: block;
+        line-height: 30px;
+      }
+      .letter-contain {
+        width: 100%;
+        height: auto;
+        color: #9a9898;
+        margin-bottom: 10px;
+      }
+    }
+    .comment-box {
+      width: 610px;
+      height: 150px;
+      margin-top: 15px;
+      padding: 0 50px;
+      .comment-head {
+        width: 75px;
+        height: 75px;
+        float: left;
+      }
+      .comment-text {
+        width: 435px;
+        height: 75px;
+        border: 0;
+        outline: none;
+        background: #e5e5e4;
+        text-indent: 5px;
+      }
+      .comment-submit {
+        width: 100px;
+        height: 32px;
+        background: #009944;
+        border-radius: 5px;
+        float: right;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 100px;
+      }
+      .comment-bottom {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 39px;
+      }
+    }
+    .all-comment {
+      width: 610px;
+      height: auto;
+      background: #e5e5e4;
+      padding: 20px 0 40px 0;
+      .comment-one {
+        width: 610px;
+        height: 120px;
+        position: relative;
+        .comment-content {
+          width: 500px;
+          height: auto;
+          background: #fff;
+          border-radius: 5px;
+          position: absolute;
+          top: 0;
+          left: 80px;
+          padding-left: 35px;
+          .comment-name {
+            line-height: 30px;
+          }
+          .comment-write {
+
+          }
+          .comment-action {
+            width: 100%;
+            height: 30px;
+            .comment-replay {
+              display: block;
+              width: 30px;
+              height: 30px;
+              margin-left: 5px;
+              float: right;
+              color: #8f8f8f;
+              text-decoration: none;
+              .replayIcon {
+                font-size: 30px;
+                text-align: center;
+                line-height: 30px;
+              }
+            }
+            .comment-like {
+              display: block;
+              width: 30px;
+              height: 30px;
+              margin-left: 5px;
+              float: right;
+              color: #8f8f8f;
+              text-decoration: none;
+              .likeIcon {
+                font-size: 30px;
+                text-align: center;
+                line-height: 30px;
+              }
+            }
+            .comment-report {
+              display: block;
+              width: 30px;
+              height: 30px;
+              margin-left: 5px;
+              float: right;
+              color: #8f8f8f;
+              text-decoration: none;
+              .reportIcon {
+                font-size: 30px;
+                text-align: center;
+                line-height: 30px;
+              }
+            }
+
+
+          }
+        }
+        .comment-userhead {
+          width: 90px;
+          height: 90px;
+          border: 5px solid #e5e5e4;
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("../font/iconfont/iconfont.eot");
+  src: url("../font/iconfont/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont/iconfont.woff") format("woff"), url("../font/iconfont/iconfont.ttf") format("truetype"), url("../font/iconfont/iconfont.svg#iconfont") format("svg"); }
+@font-face {
+  font-family: 'iconfont2';
+  src: url("../font/iconfont2/iconfont.eot");
+  src: url("../font/iconfont2/iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont2/iconfont.woff") format("woff"), url("../font/iconfont2/iconfont.ttf") format("truetype"), url("../font/iconfont2/iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.iconfont2 {
+  font-family: "iconfont2" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.head .head-row span .loged-box {
+  display: block; }
+
+.banner-menu {
+  width: 217px;
+  background: #434545;
+  position: fixed;
+  top: 9.4%;
+  right: 3.5%;
+  z-index: 10;
+  display: none; }
+  .banner-menu .banner-ul {
+    width: 100%;
+    height: 100%; }
+    .banner-menu .banner-ul li {
+      display: block;
+      width: 217px;
+      height: 42px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 42px;
+      border-bottom: 1px solid #fff;
+      cursor: pointer; }
+      .banner-menu .banner-ul li .banner-icon {
+        color: #fff;
+        font-size: 32px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 50px; }
+    .banner-menu .banner-ul li:hover {
+      color: #9a9998; }
+      .banner-menu .banner-ul li:hover .banner-icon {
+        color: #9a9998; }
+
+.empty-box {
+  width: 100%;
+  height: 85px; }
+
+.title-box {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px; }
+  .title-box .title-text {
+    font-size: 24px;
+    color: #000;
+    text-align: center; }
+
+.container {
+  width: 90%;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+  .container .pic-box {
+    width: 435px;
+    height: 500px;
+    position: relative;
+    float: left;
+    margin: 0 40px; }
+    .container .pic-box .pic-title {
+      color: #999898;
+      font-size: 24px;
+      text-align: center;
+      line-height: 65px; }
+    .container .pic-box .pic-contain {
+      width: 435px;
+      height: 435px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #cfcfce;
+      overflow: auto; }
+      .container .pic-box .pic-contain img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 10px;
+        float: left; }
+  .container .add-box {
+    width: 435px;
+    height: 500px;
+    position: relative;
+    float: left;
+    margin: 0 40px;
+    cursor: pointer; }
+    .container .add-box .add-title {
+      width: 100%;
+      height: 65px; }
+    .container .add-box .add-icon {
+      width: 435px;
+      height: 435px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #cfcfce;
+      font-size: 350px;
+      color: #9e9995;
+      text-align: center;
+      line-height: 335px;
+      overflow: hidden; }
+
+@media screen and (max-width: 1754px) {
+  .container {
+    width: 100%; } }
+@media screen and (max-width: 1642px) {
+  .container .pic-box {
+    margin: 0 29px; }
+  .container .add-box {
+    margin: 0 29px; } }
+@media screen and (max-width: 1552px) {
+  .container .pic-box {
+    margin: 0 12px; }
+  .container .add-box {
+    margin: 0 12px; } }
+@media screen and (max-width: 1443px) {
+  .container {
+    width: 956px !important; } }
+.upload-box {
+  width: 800px;
+  height: 447px;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-left: -400px;
+  background: dodgerblue;
+  z-index: 15;
+  padding: 20px; }
+  .upload-box .upload-drap {
+    width: 410px;
+    height: 330px;
+    float: left;
+    background: cadetblue; }
+    .upload-box .upload-drap .drap-box {
+      width: 100%;
+      height: 231px;
+      background: #eeeeed;
+      border-radius: 10px;
+      border: 2px dotted #afaaa7; }
+    .upload-box .upload-drap .browse-btn {
+      width: 93px;
+      height: 20px;
+      border: 0;
+      background: #c9c9c9;
+      line-height: 10px;
+      text-align: center;
+      border-radius: 10px;
+      outline: none;
+      margin-top: 5px;
+      margin-left: 158px;
+      color: #fff; }
+    .upload-box .upload-drap .upload-title {
+      font-size: 18px;
+      color: #635b59; }
+    .upload-box .upload-drap .upload-text {
+      width: 100%;
+      height: 40px;
+      border: 2px solid #afaaa7;
+      border-radius: 5px;
+      outline: none;
+      font-size: 20px;
+      text-indent: 5px; }
+  .upload-box .upload-cut {
+    width: 330px;
+    height: 330px;
+    float: right;
+    background: #afaaa7; }
+  .upload-box .upload-cancel, .upload-box .upload-save {
+    width: 138px;
+    height: 39px;
+    border: 0;
+    border-radius: 10px;
+    background: #c9c9c9;
+    font-size: 22px;
+    color: #fff;
+    float: right;
+    margin-top: 30px; }
+  .upload-box .upload-save {
+    background: #009944;
+    margin-left: 28px; }
+
+/*# sourceMappingURL=artboards.css.map */

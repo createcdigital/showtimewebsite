@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../js/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/swiper/swiper-3.4.0.min.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen" />
+</head>
+<body>
+    <div class="container-fluid head">
+        <div class="layout head-layout">
+            <div class="row head-row">
+                   <span>
+                       <img class="logo-img" src="../img/portfolio/logo.png">
+                       <i class="iconfont main-icon">&#xe616;</i>
+                       <form class="search-box" action="">
+                         <input type="text" class="case" placeholder="Search"/>
+                         <a class="go" href="#">
+                            <i class="iconfont go-icon">&#xe6e6;</i>
+                         </a>
+                         <select name="" id="search-select">
+                             <option value="">Artwork</option>
+                             <option value="">Artist</option>
+                         </select>
+                         <div class="search-icon"></div>
+                       </form>
+                       <!--<div class="log-box">-->
+                           <!--<span class="login">Login</span><i> / </i><span class="signup">Signup</span>-->
+                       <!--</div>-->
+                       <div class="loged-box">
+                           <span class="loged-head"><img class="loged-headimg" src="../img/portfolio/head.jpg" alt=""></span>
+                           <span class="loged-hi">Hi</span><span class="loged-username">Emily</span>
+                           <span class="loged-icon"></span>
+                       </div>
+                   </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="empty-box"></div>
+    <div class="container-fluid banner">
+        <img src="../img/portfolio/banner.jpg" class="img-responsive banner-img" alt="Responsive image">
+        <div class="banner-menu">
+            <ul class="banner-ul">
+                <li><i class="iconfont2 banner-icon">&#xe624;</i>Inbox</li>
+                <li><i class="iconfont2 banner-icon">&#xe60e;</i>Artboards</li>
+                <li><i class="iconfont2 banner-icon">&#xe602;</i>My Profile</li>
+                <li><i class="iconfont2 banner-icon">&#x348c;</i>Settings</li>
+                <li><i class="iconfont2 banner-icon">&#xe617;</i>Log Out</li>
+            </ul>
+        </div>
+        <div class="banner-bar">
+            <div class="bar-posts">
+                <p class="posts-num">23</p>
+                <p class="posts-text">Posts</p>
+            </div>
+            <div class="bar-likes">
+                <p class="likes-num">33</p>
+                <p class="likes-text">Post likes</p>
+            </div>
+            <div class="bar-views">
+                <p class="views-num">123</p>
+                <p class="views-text">Account views</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="name-box">
+        <div class="user-headpic">
+            <img class="user-headimg" src="../img/portfolio/head.jpg" alt="">
+        </div>
+        <div class="user-info">
+            <p class="user-name">Emily Cheung</p>
+            <p class="user-status">Travel Photographer</p>
+        </div>
+    </div>
+
+    <div class="self-box">
+        <div class="aboutme-box">
+            <p class="aboutme-title">About Me</p>
+            <p class="aboutme-text">
+                There are moments in life when you miss someone so much that you just want to pick them from your dreams and
+                hug them for real! Dream what you want to dream;go where you want to go;be what you want to be,because you
+                have only one life and one chance to do all the things you want to do.May you have enough happiness to make
+                you sweet,enough trials to make you strong,enough sorrow to keep you human,enough hope to make you happy?
+                Always put yourself in others’shoes.If you feel that it hurts you,it probably hurts the other person, too.
+                The happiest of people don’t necessarily have the best of everything;they just make the most of everything
+                that comes along their way.Happiness lies for those who cry,those who hurt, those who have searched,and those
+                who have tried,for only they can
+            </p>
+        </div>
+
+        <div class="skill-box">
+            <p class="skill-head">Skills</p>
+            <div class="skill-item">
+                <p class="skill-title">Photoshop</p>
+                <div class="skill-percent">
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p class="skill-title">illustrator</p>
+                <div class="skill-percent">
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <p class="skill-title">After Effects</p>
+                <div class="skill-percent">
+                    <div class="skill-bar"></div>
+                </div>
+            </div>
+            <p class="skill-addicon"><i>+</i></p>
+            <div class="skill-addbox">
+                <input class="add-title" type="text">
+                <button class="add-Delete">Delete</button>
+                <input class="add-range" type="range" min="0" max="10">
+                <button class="add-save">Save</button>
+            </div>
+
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <div class="info-box">
+        <div class="experience-box">
+            <h4>Experience</h4>
+            <div class="work-item">
+                <span class="work-doto"></span>
+                <div class="work-time">2011 - Present</div>
+                <div class="work-box">
+                    <h5>Nikon Events</h5>
+                    <p class="work-function">Full-time product photogarpher</p>
+                    <p class="work-content">
+                        There are moments in life when you miss someone so much that you just want to pick them from your dreams and
+                        hug them for real! Dream what you want to dream;be what you want to be,because you
+                        have only one
+                    </p>
+                </div>
+            </div>
+
+            <div class="time-bar"></div>
+
+            <div class="add-work">
+                <div class="left-box">
+                    <input class="timeline" type="text" placeholder="Year - Year">
+                    <button class="work-Delete">Delete</button>
+                    <button class="work-save">Save</button>
+                </div>
+                <div class="right-box">
+                    <input class="company" type="text" placeholder="What company/project">
+                    <input class="function" type="text" placeholder="Your function">
+                    <textarea name="" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+                </div>
+                <span class="add-doto"></span>
+            </div>
+
+            <div style="clear:both;"></div>
+        </div>
+
+
+        <div class="education-box">
+            <h4>Education</h4>
+            <div class="study-item">
+                <span class="study-doto"></span>
+                <div class="study-time">2011 - Present</div>
+                <div class="study-box">
+                    <h5>Nikon Events</h5>
+                    <p class="study-function">Full-time product photogarpher</p>
+                    <p class="study-content">
+                        There are moments in life when you miss someone so much that you just want to pick them from your dreams and
+                        hug them for real! Dream what you want to dream;be what you want to be,because you
+                        have only one
+                    </p>
+                </div>
+            </div>
+
+            <div class="study-bar"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+
+    <div class="photo-contain">
+
+        <h2 class="box-title">PORTFOLIO</h2>
+
+        <i class="iconfont2 upload-btn">&#xf0026;</i>
+        <h2 class="clicked-title">ShangHai</h2>
+        <i class="iconfont2 back-btn">&#xe63d;</i>
+
+        <div class="photo-box">
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="photo-album">
+                <img class="cover-img" src="../img/portfolio/sh.png" alt="">
+                <div class="album-cover">
+                    <p class="album-title">ShangHai</p>
+                </div>
+            </div>
+            <div class="add-pic">
+                <i class="iconfont2 add-picicon">&#xf0026;</i>
+            </div>
+        </div>
+
+        <div class="open-box">
+            <div class="open-img">
+                <img src="../img/portfolio/pic1.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic2.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic3.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic4.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic5.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic6.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic7.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic8.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic9.jpg" alt="">
+            </div>
+            <div class="open-img">
+                <img src="../img/portfolio/pic10.jpg" alt="">
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="container-fluid bottom">
+        <div class="layout">
+            <img class="logoMin" src="../img/portfolio/logoMin.png" alt="" />
+            <div class="b-line">	</div>
+            <h2 class="b-create">Empowered  &nbsp; by Createc &nbsp; Solution.</h2>
+            <img class="b-code" src="../img/portfolio/code.jpg" alt="" />
+            <div class="b-text">
+                <h4>Createc Solution 2016;ALL Rights Reserved沪 ICP 备 14054408 号 - 6</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="cover"></div>
+    <div class="layout">
+        <div class="upload-box">
+            <div class="upload-drap">
+                <div class="drap-box">
+                    <p class="drap-text">Drag your image file in here</p>
+                </div>
+                <div class="browse-box">
+                   <label>
+                        <span class="browse-btn">or browse</span>
+                        <input id="browse-input" type="file" name="files[]" multiple="multiple" title='Click to add Files'>
+                   </label>
+                </div>
+                <p class="upload-title">Portfolio title</p>
+                <input type="text" class="upload-text">
+            </div>
+
+            <div class="upload-cut">
+            </div>
+
+            <button class="upload-save">save</button>
+            <button class="upload-cancel">cancel</button>
+        </div>
+
+
+        <div class="upload-Picbox">
+            <div class="drap-left">
+                <div class="left-box">
+                    <i class="iconfont2 upload-iconfont">&#xe501;</i>
+                    <p class="left-text">Drag your image file in here</p>
+                </div>
+                <div class="browse-boxTwo">
+                    <label>
+                        <span class="browse-btnTwo">or browse</span>
+                        <input id="browse-file" type="file" name="files[]" multiple="multiple" title='Click to add Files'>
+                    </label>
+                </div>
+            </div>
+            <div class="drap-right">
+                <p class="right-description">Artwork description</p>
+                <textarea name="" id="description-text" cols="30" rows="10"></textarea>
+                <p class="right-keywords">Enter keywords</p>
+                <span class="keywords-doto" title="Keywords will make it easier for others to find your artwork Use multiple keywords that descript your artwork">?</span>
+                <input class="keywords-text" type="text" placeholder="photographer,travel,natural scenery">
+            </div>
+
+            <div class="text-boxone">
+                <input class="check-one" type="checkbox">
+                <p class="text-one">Allow others to use my artwork for private and commercial purposes</p>
+            </div>
+            <div class="text-boxtwo">
+                <input class="check-two" type="checkbox">
+                <p class="text-two">Keep my artwork protected from private and commercial purposes (add watermark)</p>
+            </div>
+            <button class="picbox-save">save</button>
+            <button class="picbox-cancel">cancel</button>
+
+
+        </div>
+    </div>
+
+
+
+</body>
+<script src="../js/jquery/jquery.min.js"></script>
+<script src="../js/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap/bootstrap.min.js"></script>
+<script src="../js/swiper/swiper-3.4.0.jquery.min.js"></script>
+<script src="../js/upload/dmuploader.js"></script>
+<script src="../js/portfolio.js"></script>
+</html>

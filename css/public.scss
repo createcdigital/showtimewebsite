@@ -1,0 +1,404 @@
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img {border: none;}
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style: normal; font-weight: normal; }
+ul, ol { list-style: none; }
+body {background: #fff;}
+a {text-decoration: none; }
+.layout {width: 1754px;margin:0 auto;overflow: hidden;clear: both;}
+
+
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  background: #282828;
+  z-index: 10;
+  .head-layout {
+    height: 100%;
+  }
+  .head-row {
+    height: 100%;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+    span {
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      line-height: 100%;
+      .logo-img {
+        width: 260px;
+        height: 52px;
+        vertical-align: middle;
+        margin-left: 4.56%;
+        float: left;
+      }
+      .main-icon {
+        font-size: 60px;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        vertical-align: middle;
+        line-height: 100%;
+        margin: 0 3.42% 0 2.85%;
+      }
+      .search-box {
+        width: 53%;
+        height: 55px;
+        float: left;
+        vertical-align: middle;
+        position: relative;
+        .case {
+          width: 100%;
+          height: 55px;
+          font-size: 26px;
+          text-indent: 5px;
+          outline: none;
+        }
+        .go {
+          display: block;
+          width: 55px;
+          height: 100%;
+          position: absolute;
+          right: 0;
+          top: 0;
+          .go-icon {
+            width: 55px;
+            height: 100%;
+            color: #666;
+            font-size: 50px;
+            position: absolute;
+            right: 0;
+            top: 20px;
+          }
+        }
+        #search-select {
+          width: 120px;
+          position: absolute;
+          top: 5%;
+          right: 6%;
+          height: 50px;
+          border: 0;
+          appearance:none;
+          -moz-appearance:none;
+          -webkit-appearance:none;
+
+          padding-right: 14px;
+
+          background: #393a3a;
+          color: #fff;
+          outline: none;
+          font-size: 18px;
+          text-indent: 10px;
+          border-radius: 0;
+        }
+        .search-icon {
+          width: 0;
+          height: 0;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 10px solid #fff;
+          position: absolute;
+          top: 42%;
+          right: 8%;
+        }
+      }
+      .log-box {
+        width: 176px;
+        height: 55px;
+        float: left;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: 5%;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
+        .login,.signup {
+          width: auto;
+          height: auto;
+          font-size: 20px;
+          color: #fff;
+          cursor: pointer;
+          line-height: 55px;
+          float: left;
+
+        }
+        .login:hover,.signup:hover {
+          color: #9a9998;
+        }
+        i {
+          width: auto;
+          height: auto;
+          line-height: 55px;
+          font-size: 26px;
+          color: #fff;
+          float: left;
+        }
+      }
+      .loged-box {
+        width: 176px;
+        height: 55px;
+        float: left;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: 4%;
+        position: relative;
+        cursor: pointer;
+        display: none;
+        .loged-head {
+          display: block;
+          width: 55px;
+          height: 55px;
+          float: left;
+          margin-right: 20px;
+          .loged-headimg {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .loged-hi {
+          display: block;
+          width: auto;
+          height: 55px;
+          float: left;
+          color: #fff;
+          font-size: 20px;
+          line-height: 55px;
+        }
+        .loged-username {
+          width: auto;
+          height: 55px;
+          display: block;
+          float: left;
+          color: #fff;
+          font-size: 20px;
+          line-height: 55px;
+          margin-left: 10px;
+        }
+        .loged-icon {
+          width: 0;
+          height: 0;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 10px solid #fff;
+          position: absolute;
+          top: 72%;
+          right: 35%;
+        }
+      }
+    }
+  }
+}
+
+
+
+.bottom {
+  width:100%;
+  background:#393a3a;
+  .logoMin {
+    float:left;
+    margin-top:70px;
+  }
+  .b-line {
+    float:left;
+    width:0;
+    height:140px;
+    border-left:2px solid #f5f4f4;
+    border-right:1px solid #f5f4f4;
+    margin:55px 20px 0 20px;
+  }
+  .b-create {
+    display:block;
+    width:250px;
+    height:76px;
+    float:left;
+    line-height:40px;
+    color:#f5f4f4;
+    font-size:28px;
+    margin-top:80px;
+  }
+  .b-code {
+    width:200px;
+    height:200px;
+    float:right;
+    margin-top:15px;
+  }
+  .b-text {
+    width:100%;
+    float:left;
+    color:#f5f4f4;
+    text-align:center;
+    margin-bottom: 2px;
+  }
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  display: none;
+}
+
+
+@media screen and (max-width: 1786px){
+   .layout {
+     width: 1662px;
+     margin:0 auto;
+     overflow: hidden;
+     clear: both;
+   }
+}
+@media screen and (max-width: 1754px){
+  .layout {
+    width: 1602px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1706px){
+  .banner .banner-menu {
+    right: 2.6% !important;
+  }
+}
+
+@media screen and (max-width: 1664px){
+  .banner .banner-menu {
+    right: 1.5% !important;
+  }
+}
+
+
+@media screen and (max-width: 1642px){
+  .layout {
+    width: 1510px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+  }
+
+  .head .head-row span .log-box {
+    margin-left: 3.2% !important;
+  }
+  .head .head-row span .loged-box {
+    margin-left: 3% !important;
+  }
+  .head .head-row span .search-box #search-select {
+    right: 7% !important;
+  }
+  .head .head-row span .search-box .search-icon {
+    right: 9% !important;
+  }
+
+}
+
+@media screen and (max-width: 1542px){
+  .layout {
+    width: 1410px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+  }
+
+  .banner .banner-menu {
+    right: 0.5% !important;
+  }
+
+  .head .head-row span .logo-img {
+    margin-left: 3% !important;
+  }
+  .head .head-row span .main-icon {
+    margin: 0 3% 0 2.5% !important;
+  }
+  .head .head-row span .log-box {
+    margin-left: 3% !important;
+  }
+  .head .head-row span .search-box #search-select {
+    right: 8% !important;
+  }
+  .head .head-row span .search-box .search-icon {
+    right: 10% !important;
+  }
+  .head .head-row span .loged-box {
+    margin-left: 3% !important;
+  }
+
+
+}
+
+@media screen and (max-width: 1442px){
+  .layout {
+    width: 1310px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+  }
+
+  .head .head-row span .logo-img {
+    margin-left: 2% !important;
+  }
+  .head .head-row span .main-icon {
+    margin: 0 1.5% 0 1% !important;
+  }
+  .head .head-row span .log-box {
+    margin-left: 2% !important;
+  }
+  .head .head-row span .search-box #search-select {
+    right: 8.5% !important;
+  }
+  .head .head-row span .search-box .search-icon {
+    right: 11% !important;
+  }
+  .head .head-row span .loged-box {
+    margin-left: 2% !important;
+  }
+  .banner .banner-menu {
+    right: 1% !important;
+  }
+
+
+}
+
+@media screen and (max-width: 1342px){
+  .layout {
+    width: 1210px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+  }
+
+  .head .head-row span .logo-img {
+    margin-left: 1% !important;
+  }
+  .head .head-row span .main-icon {
+    margin: 0 1% 0 0.5% !important;
+  }
+  .head .head-row span .log-box {
+    margin-left: 1% !important;
+  }
+  .head .head-row span .search-box #search-select {
+    right: 9.5% !important;
+  }
+  .head .head-row span .search-box .search-icon {
+    right: 12% !important;
+  }
+  .head .head-row span .loged-box {
+    margin-left: 1% !important;
+  }
+  .banner .banner-menu {
+    right: 1%;
+  }
+
+
+
+}
